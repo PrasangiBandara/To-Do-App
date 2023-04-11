@@ -62,3 +62,14 @@ body {
     border-radius: 5px;
   }
   
+  .task-item.completed {
+    background-color: #ccc;
+  }
+  
+  .task-item .task-name {
+    flex: 1;
+    margin-left: 10px;
+    color: #000;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
