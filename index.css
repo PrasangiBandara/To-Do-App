@@ -46,3 +46,19 @@ body {
   :hover.form button{
     background-color: #9a9595;
   }
+
+  .task {
+    background-color: #444;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .task-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 5px;
+    background-color: #fff;
+    border-radius: 5px;
+  }
+  
