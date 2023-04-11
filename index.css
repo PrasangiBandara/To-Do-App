@@ -73,3 +73,42 @@ body {
     font-size: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
+
+  .task-item .edit-button {
+    margin-right: 10px;
+    padding: 1%;
+    background-color: #3d9d55;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+    border-color: #fff;
+    color: #fff;
+    
+  }
+  
+  .task-item .delete-button {
+    background-color: #dc3545;
+    padding: 1%;
+    color: #fff;
+    border-color: #fff;
+    font-size: 20px;
+    border-radius: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  #all {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  #all p {
+    margin: 0;
+    font-size: 20px;
+  }
+  
+  #all span {
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
