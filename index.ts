@@ -13,6 +13,12 @@ class Todo {
   //add task
   addToList(taskName: string): void {
     const trimmedTaskName = taskName.trim();
+    if (trimmedTaskName !== "") {
+      const task1: ToDo = {
+        name: trimmedTaskName,
+        completed: false,
+      };
+    }
   }
 
   //edit task
