@@ -88,11 +88,3 @@ addButton.addEventListener("click", function () {
 });
 
 
-if (trimmedTaskName !== "") {
-    const task1: ToDo = {
-      name: trimmedTaskName,
-      completed: false,
-    };
-    this.task.push(task1);
-    this.functioningTask();
-  }

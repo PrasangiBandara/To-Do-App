@@ -18,6 +18,8 @@ class Todo {
         name: trimmedTaskName,
         completed: false,
       };
+      this.task.push(task1);
+      this.functioningTask();
     }
   }
 
